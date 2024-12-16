@@ -2,7 +2,7 @@
 
 </ul><h2> Preview ⚡️</h2>
 <p align="center">
-  <img src="./imaeges/currency-converter.png" alt="currency-converter" width="100%" />
+  <img src="./images/Currency-converter-scrnsht.jpg" alt="currency-converter" width="100%" />
 </p>
 
 ## Features 🔥
