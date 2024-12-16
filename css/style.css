@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	text-align: center;
+    font-family: sans-serif;
+    background-color: #02294c;
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #FFD662FF, #00f2ff, #f2acac);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    text-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    
+    
+}
+
+.convert,.exchange{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 25px;
+    color: #ffffff;
+    padding-right: 20px;
+}
+
+input {
+	width: 150px;
+	height: 30px;
+	font-size: 20px;
+    margin: 5px auto;
+    outline: 0;
+}
+
+#original-currency-amount{
+    padding-left: 50px;
+}
+button {
+	width: 300px;
+	height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.button:hover {
+    background: linear-gradient(90deg, #2575fc, #6a11cb);
+    transform: translateY(-5px);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .button:active {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+  }
+
+select{
+	width: 80px;
+	height: 35px;
+	font-size: 20px;
+	text-align: center;
+	padding-left: 10px;
+  outline: 0;
+}
+
+#exchange{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin: 0 20px;
+    outline: 0;
+    color: rgb(255, 255, 255);
+    border: 4px solid #FFD662FF;
+
+}
+
+#exchange:active, button:active {
+	transform: scale(0.9);
+}
+
+#output-text{
+    display: none;
+    padding: 20px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+span{
+    color: #FFD662FF;
+    font-size: 40px;
+}
+
+#exchange-rate{
+    cursor:default;
+}
+
+footer{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+
+a{
+    color: #ffffff;
+    bottom: 0;
+    font-size: 30px;
+    text-decoration: none;
+}
